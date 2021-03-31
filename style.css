@@ -1,0 +1,220 @@
+
+/*common start*/
+/*common end*/
+/*header start*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	/*border: 1px solid red;*/
+	padding: 20px 0;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+
+	
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo a{
+	display: block;
+
+}
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	margin-top: 5px;
+	width: 78%;
+	float: right;
+}
+.menu ul{
+	float:right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+
+	display: block;
+	text-decoration: none;
+	padding: 0 15px;
+	color:black;}
+
+.menu ul li a:hover {
+	color: #c72020;
+
+}
+
+
+.menu ul li :last-child a {
+	padding-right: 0;
+}
+
+/*header end*/
+
+
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+
+}
+
+.b_content {
+	margin:100px 0; 
+	width: 47%;
+	/*border: 1px solid blue;*/
+
+}
+.b_content h1{
+	margin: 0 0 30px;
+	font-family: sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: white;
+	word-spacing:6px;
+	text-transform: capitalize;
+
+}
+.b_p{
+	text-transform: capitalize;
+}
+.b_content p{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+
+}
+.b_content button{
+width: 210px;
+height: 45px;
+background-color: #ca3f6c;
+color: white;
+font-family: sans-serif;
+font-size: 10px;
+font-weight: 700;
+text-transform: uppercase;
+border: none;
+transition: .3s;
+
+
+}
+.b_content button:hover{
+	background-color: white;
+	color: #ca3f6c;
+}
+
+
+
+/*banner end*/
+
+/*works start */
+
+.works{
+	padding: 100px 0;
+
+
+}
+
+.top{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	
+
+}
+
+.w_h1{
+	margin: 0 0 25px;
+	font-family: sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+.w_p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color:#9e9e9e;
+	text-transform:capitalize;
+	line-height: 17px;
+}
+
+.bottom{
+	
+	
+}
+.single{
+	margin: 0 33px;
+	width: 25%;
+	text-align: center;
+	 
+	float:left;
+}
+.s_img{
+	width: 50%;
+    margin: 0 auto;
+  
+}
+.s_img img{
+	width: 100%
+}
+.single p{
+	margin: 25px 0;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:black;
+	
+}
+
+/*works end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
